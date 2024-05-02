@@ -16,6 +16,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+Console.WriteLine("CexCexPowerCex");
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
